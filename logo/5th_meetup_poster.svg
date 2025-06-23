@@ -7,8 +7,11 @@
    viewBox="0 0 297 420"
    version="1.1"
    id="svg1"
-   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
    sodipodi:docname="5th_meetup_poster.svg"
+   inkscape:export-filename="5th_meetup_poster.pdf"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -23,22 +26,67 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="0.34999935"
-     inkscape:cx="435.7151"
-     inkscape:cy="755.71569"
+     inkscape:zoom="0.44219283"
+     inkscape:cx="434.19971"
+     inkscape:cy="756.45731"
      inkscape:window-width="1512"
      inkscape:window-height="916"
-     inkscape:window-x="0"
-     inkscape:window-y="38"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:window-x="1242"
+     inkscape:window-y="1118"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false">
+    <inkscape:grid
+       id="grid34"
+       units="mm"
+       originx="0"
+       originy="0"
+       spacingx="1"
+       spacingy="0.99999998"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       enabled="true"
+       visible="false" />
+    <sodipodi:guide
+       position="148.5,387"
+       orientation="-1,0"
+       id="guide34"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="19.999999,232"
+       orientation="-1,0"
+       id="guide35"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="277,227"
+       orientation="-1,0"
+       id="guide36"
+       inkscape:label=""
+       inkscape:locked="false"
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="-42.60537,277"
+       orientation="0,1"
+       id="guide37"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+  </sodipodi:namedview>
   <defs
      id="defs1">
     <rect
        x="0"
        y="0"
        width="1122.5197"
-       height="493.90348"
+       height="493.90347"
        id="rect5" />
   </defs>
   <g
@@ -47,7 +95,7 @@
      id="layer1">
     <g
        id="g1"
-       transform="matrix(1.0956374,0,0,1.0956374,-12.940782,-26.055312)">
+       transform="matrix(1.0956374,0,0,1.0956374,-21.164012,-26.961757)">
       <path
          style="display:inline;fill:none;stroke:#27945c;stroke-width:3.74315;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          d="M 61.744443,110.98321 H 51.120565 L 39.442409,99.305054 V 83.977473 l 8.272027,-11.029368 4.298211,-11.353766 9.731796,-3.89272 9.731795,3.89272 4.298214,11.353766 8.272027,11.029368 V 99.305054 L 72.36832,110.98321 Z"
@@ -80,50 +128,51 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-weight:bold;font-size:42.5169px;line-height:0.8;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#27945c;fill-opacity:1;stroke:#27945c;stroke-width:4.38255;stroke-linejoin:round"
-       x="97.490929"
-       y="61.038788"
-       id="text1"><tspan
+       style="font-weight:bold;font-size:48.2747px;line-height:0.8;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#27945c;fill-opacity:1;stroke:#27945c;stroke-width:4.97604;stroke-linejoin:round"
+       x="92.955025"
+       y="54.17297"
+       id="text1"
+       transform="scale(0.94662275,1.056387)"><tspan
          sodipodi:role="line"
-         x="97.490929"
-         y="61.038788"
-         style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:42.5169px;line-height:0.8;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono Ultra-Bold';letter-spacing:0px;fill:#27945c;fill-opacity:1;stroke:none;stroke-width:4.38255"
+         x="92.955025"
+         y="54.17297"
+         style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:48.2747px;line-height:0.8;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono Ultra-Bold';letter-spacing:0px;fill:#27945c;fill-opacity:1;stroke:none;stroke-width:4.97604"
          id="tspan4">HVLtech</tspan><tspan
          sodipodi:role="line"
-         x="97.490929"
-         y="95.052307"
-         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:42.5169px;line-height:0.8;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono Bold Italic';letter-spacing:0px;fill:#27945c;fill-opacity:1;stroke:none;stroke-width:4.38255"
+         x="92.955025"
+         y="92.792732"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:48.2747px;line-height:0.8;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono Bold Italic';letter-spacing:0px;fill:#27945c;fill-opacity:1;stroke:none;stroke-width:4.97604"
          id="tspan5">meetup</tspan><tspan
          sodipodi:role="line"
-         x="97.490929"
-         y="129.06583"
-         style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:42.5169px;line-height:0.8;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono Ultra-Bold';letter-spacing:0px;fill:#27945c;fill-opacity:1;stroke:none;stroke-width:4.38255"
+         x="92.955025"
+         y="131.41249"
+         style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:48.2747px;line-height:0.8;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono Ultra-Bold';letter-spacing:0px;fill:#27945c;fill-opacity:1;stroke:none;stroke-width:4.97604"
          id="tspan2" /></text>
     <text
        xml:space="preserve"
        transform="scale(0.26458333)"
        id="text5"
-       style="fill:#27945c;text-orientation:auto;-inkscape-font-specification:'JetBrains Mono Bold Italic';font-family:'JetBrains Mono';font-weight:bold;font-size:173.33333333px;line-height:0.8;letter-spacing:0px;word-spacing:0px;stroke:none;stroke-width:15.11811024;stroke-linejoin:round;text-align:start;writing-mode:lr-tb;direction:ltr;fill-opacity:1;font-style:italic;font-stretch:normal;font-variant:normal;white-space:pre;shape-inside:url(#rect5)" />
+       style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:173.333px;line-height:0.8;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono Bold Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect5);fill:#27945c;fill-opacity:1;stroke:none;stroke-width:15.1181;stroke-linejoin:round" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:31.75px;line-height:1;font-family:'Geist Mono';-inkscape-font-specification:'Geist Mono Bold';text-align:start;letter-spacing:-2.64583px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#27945c;fill-opacity:1;stroke:none;stroke-width:4;stroke-linejoin:round"
-       x="27.212868"
-       y="141.43913"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:31.75px;line-height:1;font-family:'Geist Mono';-inkscape-font-specification:'Geist Mono Bold';text-align:start;letter-spacing:-2.38125px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#27945c;fill-opacity:1;stroke:none;stroke-width:4;stroke-linejoin:round"
+       x="19.999998"
+       y="148.11577"
        id="text7"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:31.75px;line-height:1;font-family:'Geist Mono';-inkscape-font-specification:'Geist Mono Bold';letter-spacing:-2.64583px;fill:#607aeb;fill-opacity:1;stroke-width:4"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:31.75px;line-height:1;font-family:'Geist Mono';-inkscape-font-specification:'Geist Mono Bold';letter-spacing:-2.38125px;fill:#607aeb;fill-opacity:1;stroke-width:4"
          sodipodi:role="line"
          id="tspan29"
-         x="27.212868"
-         y="141.43913">date:</tspan><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:31.75px;line-height:1;font-family:'Geist Mono';-inkscape-font-specification:'Geist Mono Bold';letter-spacing:-2.64583px;fill:#27945c;fill-opacity:1;stroke-width:4"
+         x="19.999998"
+         y="148.11577">date:</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:31.75px;line-height:1;font-family:'Geist Mono';-inkscape-font-specification:'Geist Mono Bold';text-align:start;letter-spacing:-2.38125px;text-anchor:start;fill:#27945c;fill-opacity:1;stroke-width:4"
          sodipodi:role="line"
          id="tspan30"
-         x="27.212868"
-         y="173.18913">07.07.2025</tspan><tspan
+         x="19.999998"
+         y="179.86577">07.07.2025</tspan><tspan
          sodipodi:role="line"
-         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:31.75px;line-height:1;font-family:'Geist Mono';-inkscape-font-specification:'Geist Mono Bold Italic';letter-spacing:-2.64583px;fill:#27945c;fill-opacity:1;stroke-width:4"
-         x="27.212868"
-         y="204.93913"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:31.75px;line-height:1;font-family:'Geist Mono';-inkscape-font-specification:'Geist Mono Bold Italic';text-align:start;letter-spacing:-2.38125px;text-anchor:start;fill:#27945c;fill-opacity:1;stroke-width:4"
+         x="19.999998"
+         y="211.61577"
          id="tspan21">18:00</tspan></text>
     <text
        xml:space="preserve"
@@ -138,45 +187,45 @@
          y="189.2587" /></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:31.75px;line-height:1;font-family:Geist;-inkscape-font-specification:'Geist Bold';text-align:start;letter-spacing:-2.64583px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#27945c;fill-opacity:1;stroke:none;stroke-width:4;stroke-linejoin:round"
-       x="24.831617"
-       y="255.28258"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:31.75px;line-height:1;font-family:Geist;-inkscape-font-specification:'Geist Bold';text-align:start;letter-spacing:-2.38125px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#27945c;fill-opacity:1;stroke:none;stroke-width:4;stroke-linejoin:round"
+       x="19.550692"
+       y="258.36597"
        id="text14"><tspan
          sodipodi:role="line"
-         style="font-size:31.75px;line-height:1;fill:#607aeb;fill-opacity:1;stroke-width:4"
-         x="24.831617"
-         y="255.28258"
+         style="font-size:31.75px;line-height:1;letter-spacing:-2.38125px;fill:#607aeb;fill-opacity:1;stroke-width:4"
+         x="19.550692"
+         y="258.36597"
          id="tspan18">location:</tspan><tspan
          sodipodi:role="line"
-         style="font-size:31.75px;line-height:1;stroke-width:4"
-         x="24.831617"
-         y="287.03259"
+         style="font-size:31.75px;line-height:1;letter-spacing:-2.38125px;stroke-width:4"
+         x="19.550692"
+         y="290.11597"
          id="tspan19">kulturhaus</tspan><tspan
          sodipodi:role="line"
-         style="font-size:31.75px;line-height:1;stroke-width:4"
-         x="24.831617"
-         y="318.78259"
-         id="tspan20">r. becher</tspan><tspan
+         style="font-size:31.75px;line-height:1;letter-spacing:-2.38125px;stroke-width:4"
+         x="19.550692"
+         y="321.86597"
+         id="tspan20">j. r. becher</tspan><tspan
          sodipodi:role="line"
-         style="font-size:31.75px;line-height:1;stroke-width:4"
-         x="24.831617"
-         y="350.53259"
+         style="font-size:31.75px;line-height:1;letter-spacing:-2.38125px;stroke-width:4"
+         x="19.550692"
+         y="353.61597"
          id="tspan17" /></text>
     <text
        xml:space="preserve"
-       style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:28.2223px;line-height:1;font-family:'Geist Mono';-inkscape-font-specification:'Geist Mono Bold Italic';text-align:start;letter-spacing:-2.64583px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#607aeb;fill-opacity:1;stroke:none;stroke-width:4;stroke-linejoin:round"
-       x="26.868561"
-       y="363.41565"
+       style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:28.2223px;line-height:1;font-family:'Geist Mono';-inkscape-font-specification:'Geist Mono Bold Italic';text-align:start;letter-spacing:-2.38125px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#607aeb;fill-opacity:1;stroke:none;stroke-width:4;stroke-linejoin:round"
+       x="20.012726"
+       y="370.96423"
        id="text31"><tspan
          sodipodi:role="line"
          id="tspan31"
-         style="stroke-width:4"
-         x="26.868561"
-         y="363.41565">more info &amp; rsvp:</tspan><tspan
+         style="letter-spacing:-2.38125px;stroke-width:4"
+         x="20.012726"
+         y="370.96423">more info &amp; rsvp:</tspan><tspan
          sodipodi:role="line"
-         style="fill:#27945c;fill-opacity:1;stroke-width:4"
-         x="26.868561"
-         y="391.63794"
+         style="letter-spacing:-2.38125px;fill:#27945c;fill-opacity:1;stroke-width:4"
+         x="20.012726"
+         y="399.18652"
          id="tspan32">hvltech.de</tspan></text>
   </g>
 </svg>
