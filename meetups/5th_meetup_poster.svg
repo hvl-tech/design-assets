@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+   width="297mm"
+   height="420mm"
+   viewBox="0 0 297 420"
+   version="1.1"
+   xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <g
+      
+       transform="matrix(1.0956374,0,0,1.0956374,-21.164012,-26.961757)">
+      <path
+         style="fill:none;stroke:#27945c;stroke-width:3.74315;stroke-linecap:butt;stroke-linejoin:round"
+         d="M 61.744443,110.98321 H 51.120565 L 39.442409,99.305054 V 83.977473 l 8.272027,-11.029368 4.298211,-11.353766 9.731796,-3.89272 9.731795,3.89272 4.298214,11.353766 8.272027,11.029368 V 99.305054 L 72.36832,110.98321 Z"
+        
+         />
+      <path
+         style="fill:#27945c;stroke:none;stroke-width:2.33875"
+         d="m 59.691456,58.886585 c 0,0 -0.963696,-2.060352 -0.999125,-2.05993 C 51.04131,56.921 42.718222,47.211768 42.757478,42.874691 c 6.961026,-0.08933 13.144273,-0.04743 19.197134,13.690962 z"
+        
+         />
+      <rect
+         style="fill:none;stroke:#27945c;stroke-width:3.5092;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10"
+        
+         width="8.7634678"
+         height="0.19916971"
+         x="9.538332"
+         y="83.873505"
+         transform="rotate(-41.881765)" />
+      <text
+        
+         style="font-weight:bold;font-size:21.4581px;line-height:10;font-family:'JetBrains Mono';text-align:start;letter-spacing:-7.42782px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#27945c;stroke:#27945c;stroke-width:0.123797"
+         x="44.412937"
+         y="98.242249"
+        ><tspan
+          
+          
+           style="letter-spacing:-7.42782px;fill:#27945c;stroke:#27945c;stroke-width:0.123797"
+           x="44.412937"
+           y="98.242249">&lt; / &gt;</tspan></text>
+    </g>
+    <text
+      
+       style="font-weight:bold;font-size:48.2747px;line-height:0.8;font-family:'JetBrains Mono';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#27945c;stroke:#27945c;stroke-width:4.97604;stroke-linejoin:round"
+       x="92.955025"
+       y="54.17297"
+      
+       transform="scale(0.94662275,1.056387)"><tspan
+        
+         x="92.955025"
+         y="54.17297"
+         style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:48.2747px;line-height:0.8;font-family:'JetBrains Mono';letter-spacing:0px;fill:#27945c;stroke:none;stroke-width:4.97604"
+        >HVLtech</tspan><tspan
+        
+         x="92.955025"
+         y="92.792732"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:48.2747px;line-height:0.8;font-family:'JetBrains Mono';letter-spacing:0px;fill:#27945c;stroke:none;stroke-width:4.97604"
+        >meetup</tspan><tspan
+        
+         x="92.955025"
+         y="131.41249"
+         style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:48.2747px;line-height:0.8;font-family:'JetBrains Mono';letter-spacing:0px;fill:#27945c;stroke:none;stroke-width:4.97604"
+         /></text>
+    <text
+      
+       transform="scale(0.26458333)"
+      
+       style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:173.333px;line-height:0.8;font-family:'JetBrains Mono';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;white-space:pre;fill:#27945c;stroke:none;stroke-width:15.1181;stroke-linejoin:round" />
+    <text
+      
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:31.75px;line-height:1;font-family:'Geist Mono';text-align:start;letter-spacing:-2.38125px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#27945c;stroke:none;stroke-width:4;stroke-linejoin:round"
+       x="19.999998"
+       y="148.11577"
+      ><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:31.75px;line-height:1;font-family:'Geist Mono';letter-spacing:-2.38125px;fill:#607aeb;stroke-width:4"
+        
+        
+         x="19.999998"
+         y="148.11577">date:</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:31.75px;line-height:1;font-family:'Geist Mono';text-align:start;letter-spacing:-2.38125px;text-anchor:start;fill:#27945c;stroke-width:4"
+        
+        
+         x="19.999998"
+         y="179.86577">07.07.2025</tspan><tspan
+        
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:31.75px;line-height:1;font-family:'Geist Mono';text-align:start;letter-spacing:-2.38125px;text-anchor:start;fill:#27945c;stroke-width:4"
+         x="19.999998"
+         y="211.61577"
+        >18:00</tspan></text>
+    <text
+      
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:38.8056px;line-height:0.8;font-family:Geist;text-align:start;letter-spacing:-2.64583px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#27945c;stroke:none;stroke-width:4;stroke-linejoin:round"
+       x="28.223228"
+       y="189.2587"
+      ><tspan
+        
+        
+         style="stroke-width:4"
+         x="28.223228"
+         y="189.2587" /></text>
+    <text
+      
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:31.75px;line-height:1;font-family:Geist;text-align:start;letter-spacing:-2.38125px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#27945c;stroke:none;stroke-width:4;stroke-linejoin:round"
+       x="19.550692"
+       y="258.36597"
+      ><tspan
+        
+         style="font-size:31.75px;line-height:1;letter-spacing:-2.38125px;fill:#607aeb;stroke-width:4"
+         x="19.550692"
+         y="258.36597"
+        >location:</tspan><tspan
+        
+         style="font-size:31.75px;line-height:1;letter-spacing:-2.38125px;stroke-width:4"
+         x="19.550692"
+         y="290.11597"
+        >kulturhaus</tspan><tspan
+        
+         style="font-size:31.75px;line-height:1;letter-spacing:-2.38125px;stroke-width:4"
+         x="19.550692"
+         y="321.86597"
+        >j. r. becher</tspan><tspan
+        
+         style="font-size:31.75px;line-height:1;letter-spacing:-2.38125px;stroke-width:4"
+         x="19.550692"
+         y="353.61597"
+         /></text>
+    <text
+      
+       style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:28.2223px;line-height:1;font-family:'Geist Mono';text-align:start;letter-spacing:-2.38125px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#607aeb;stroke:none;stroke-width:4;stroke-linejoin:round"
+       x="20.012726"
+       y="370.96423"
+      ><tspan
+        
+        
+         style="letter-spacing:-2.38125px;stroke-width:4"
+         x="20.012726"
+         y="370.96423">more info &amp; rsvp:</tspan><tspan
+        
+         style="letter-spacing:-2.38125px;fill:#27945c;stroke-width:4"
+         x="20.012726"
+         y="399.18652"
+        >hvltech.de</tspan></text>
+  </g>
+</svg>
