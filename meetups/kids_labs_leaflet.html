@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>HVLtech Kids Labs – Flyer A6</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=JetBrains+Mono:wght@400;500;600;700;800&display=swap');
+
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+  @page {
+    size: 105mm 148mm;
+    margin: 0;
+  }
+
+  html, body {
+    width: 105mm;
+    height: 148mm;
+    overflow: hidden;
+  }
+
+  body {
+    font-family: 'JetBrains Mono', monospace;
+    background: #fff;
+    color: #1a1a2e;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* ===== TOP BANNER ===== */
+  .banner {
+    background: #27945c;
+    color: #fff;
+    text-align: center;
+    padding: 5mm 4mm 4mm;
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* pixel grid overlay */
+  .banner::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      repeating-conic-gradient(rgba(255,255,255,0.04) 0% 25%, transparent 0% 50%) 0 0 / 4mm 4mm;
+    pointer-events: none;
+  }
+
+  .banner-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3mm;
+    margin-bottom: 2.5mm;
+    position: relative;
+  }
+
+  .logo-wrap {
+    width: 10mm;
+    height: 14mm;
+    flex-shrink: 0;
+  }
+
+  .logo-wrap svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  .brand-name {
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 800;
+    font-size: 4.2mm;
+    letter-spacing: -0.2mm;
+    color: #fff;
+    line-height: 1;
+  }
+
+  .title {
+    font-family: 'Press Start 2P', monospace;
+    font-size: 5.5mm;
+    line-height: 1.2;
+    color: #fff;
+    letter-spacing: 0.3mm;
+    position: relative;
+  }
+
+  .free-badge {
+    display: inline-block;
+    background: #fff;
+    color: #27945c;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 800;
+    font-size: 2.4mm;
+    padding: 0.6mm 2mm;
+    border-radius: 0.5mm;
+    margin-top: 2mm;
+    letter-spacing: 0.3mm;
+  }
+
+  /* ===== DATE STRIP ===== */
+  .date-strip {
+    background: #1e7a4c;
+    color: #fff;
+    text-align: center;
+    padding: 2.5mm 4mm;
+    font-weight: 700;
+    font-size: 3mm;
+    letter-spacing: 0.2mm;
+    line-height: 1.5;
+  }
+
+  .date-strip .day {
+    font-size: 3.3mm;
+  }
+
+  /* ===== CONTENT ===== */
+  .content {
+    flex: 1;
+    padding: 3.5mm 4mm 2mm;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5mm;
+  }
+
+  .intro {
+    font-size: 2.4mm;
+    line-height: 1.5;
+    color: #444;
+    text-align: center;
+  }
+
+  .intro strong {
+    color: #27945c;
+  }
+
+  /* Track cards */
+  .track {
+    border: 0.4mm solid #27945c;
+    border-radius: 1.5mm;
+    padding: 2.5mm 3mm;
+    position: relative;
+    background: #f8fdf6;
+  }
+
+  .track-header {
+    display: flex;
+    align-items: center;
+    gap: 2mm;
+    margin-bottom: 1.5mm;
+  }
+
+  .age-badge {
+    background: #27945c;
+    color: #fff;
+    font-weight: 800;
+    font-size: 2.3mm;
+    padding: 0.8mm 2mm;
+    border-radius: 0.8mm;
+    white-space: nowrap;
+  }
+
+  .track-title {
+    font-weight: 800;
+    font-size: 2.8mm;
+    color: #1a1a2e;
+  }
+
+  .track-icon {
+    font-size: 4.5mm;
+    line-height: 1;
+  }
+
+  .track-desc {
+    font-size: 2.2mm;
+    line-height: 1.5;
+    color: #555;
+  }
+
+  .track-desc strong {
+    color: #1a1a2e;
+    font-weight: 600;
+  }
+
+  /* ===== BOTTOM ===== */
+  .bottom {
+    padding: 0 4mm 3.5mm;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5mm;
+  }
+
+  .req {
+    font-size: 2mm;
+    color: #777;
+    text-align: center;
+    line-height: 1.4;
+  }
+
+  .req strong {
+    color: #444;
+  }
+
+  .signup {
+    background: #27945c;
+    color: #fff;
+    text-align: center;
+    padding: 2mm 3mm;
+    border-radius: 1.2mm;
+    font-size: 2.4mm;
+    font-weight: 700;
+    letter-spacing: 0.1mm;
+  }
+
+  .signup a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .footer-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2mm;
+    color: #999;
+  }
+
+  .footer-row .url {
+    font-weight: 700;
+    color: #27945c;
+    font-size: 2.2mm;
+  }
+
+  /* ===== Print ===== */
+  @media print {
+    html, body {
+      width: 105mm;
+      height: 148mm;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+  }
+</style>
+</head>
+<body>
+
+<!-- GREEN HEADER -->
+<div class="banner">
+  <div class="banner-top">
+    <div class="logo-wrap">
+      <svg viewBox="0 0 103.33 149.59" xmlns="http://www.w3.org/2000/svg">
+        <path fill="#fff" stroke="#fff" stroke-width="0.26" d="M38.65 116.44 18.11 106.76v-5.73l20.55-9.68v5.27l-13.3 6.15q-.92.41-1.83.73-.87.28-1.38.37.5.09 1.42.37.92.27 1.79.69l13.3 6.14zm2 7.61 16.05-43.11h5.96L46.62 124.05zm24.02-7.61v-5.28l13.3-6.14q.92-.41 1.79-.69.92-.28 1.42-.41-.5-.09-1.42-.37-.92-.27-1.79-.64l-13.3-6.19v-5.37l20.55 9.68v5.73z"/>
+        <g transform="translate(-53.88,-65.08)">
+          <path fill="none" stroke="#fff" stroke-width="8" stroke-linejoin="round" d="M105.54 210.67H82.83L57.88 185.71v-32.76l17.68-23.57 9.19-24.27 20.8-8.32 20.8 8.32 9.19 24.27 17.68 23.57v32.76l-24.96 24.96z"/>
+          <path fill="#fff" d="M101.15 99.32s-2.06-4.4-2.14-4.4c-16.35.2-34.14-20.55-34.06-29.82 14.88-.19 28.09-.1 41.03 29.26z"/>
+          <path fill="none" stroke="#fff" stroke-width="8" stroke-linejoin="round" d="M105.99 96.12l12.66-17.25"/>
+        </g>
+      </svg>
+    </div>
+    <div class="brand-name">HVLtech</div>
+  </div>
+  <div class="title">KIDS LABS</div>
+  <div class="free-badge">&#9733; KOSTENLOS &#9733;</div>
+</div>
+
+<!-- DATE STRIP -->
+<div class="date-strip">
+  <div class="day">Sonntag, 19. April 2026</div>
+  <div>10:00 &ndash; 13:00 Uhr</div>
+</div>
+
+<!-- CONTENT -->
+<div class="content">
+
+  <div class="intro">
+    Zwei Workshops &ndash; ein Event!<br>
+    <strong>Lernen durch Spielen &amp; Basteln.</strong>
+  </div>
+
+  <!-- Track 1: Electronics -->
+  <div class="track">
+    <div class="track-header">
+      <span class="track-icon">&#9889;</span>
+      <span class="age-badge">ab 6 Jahren</span>
+      <span class="track-title">Elektronik-Basteln</span>
+    </div>
+    <div class="track-desc">
+      Baue <strong>leuchtende Schaltkreise</strong> aus Papier,
+      LEDs und Knopfbatterien. Kein Vorwissen n&ouml;tig &ndash;
+      nur Neugier!
+    </div>
+  </div>
+
+  <!-- Track 2: Minecraft -->
+  <div class="track">
+    <div class="track-header">
+      <span class="track-icon">&#9935;</span>
+      <span class="age-badge">ab 10 Jahren</span>
+      <span class="track-title">Minecraft Modding</span>
+    </div>
+    <div class="track-desc">
+      Gestalte deinen <strong>eigenen Block in Blockbench</strong>,
+      importiere ihn in Minecraft und spiele ihn
+      mit allen zusammen!
+    </div>
+  </div>
+
+  <div class="req">
+    <strong>Mitbringen:</strong> Laptop (aufgeladen) &bull; F&uuml;r Minecraft:
+    Java Edition installiert &amp; eingeloggt
+  </div>
+
+</div>
+
+<!-- BOTTOM -->
+<div class="bottom">
+  <div class="signup">
+    Anmeldung &#10132; meetup@hvltech.de
+  </div>
+  <div class="footer-row">
+    <span>Pl&auml;tze begrenzt!</span>
+    <span class="url">hvltech.de</span>
+  </div>
+</div>
+
+</body>
+</html>
