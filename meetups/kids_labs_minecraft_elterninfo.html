@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>HVLtech Kids Labs – Minecraft Modding – Elterninfo</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=JetBrains+Mono:wght@400;500;600;700;800&family=Roboto:wght@400;500;600;700&display=swap');
+
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+  @page { size: 105mm 200mm; margin: 0; }
+
+  html, body {
+    width: 105mm;
+  }
+
+  body {
+    font-family: 'JetBrains Mono', monospace;
+    background: #fff;
+    color: #1a1a2e;
+    display: flex;
+    flex-direction: column;
+    border: 0.6mm solid #27945c;
+  }
+
+  /* ===== HEADER ===== */
+  .header {
+    text-align: center;
+    padding: 3.5mm 5mm 2.5mm;
+    border-bottom: 0.4mm solid #27945c;
+  }
+
+  .logo-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2mm;
+    margin-bottom: 2mm;
+  }
+
+  .logo-wrap { width: 8mm; height: 11mm; flex-shrink: 0; }
+  .logo-wrap svg { width: 100%; height: 100%; }
+
+  .brand-name {
+    font-weight: 800;
+    font-size: 3.8mm;
+    letter-spacing: -0.2mm;
+    color: #27945c;
+    line-height: 1;
+  }
+
+  .event-type {
+    font-family: 'Press Start 2P', monospace;
+    font-size: 5mm;
+    line-height: 1.2;
+    letter-spacing: 0.3mm;
+    color: #27945c;
+    margin-bottom: 1mm;
+  }
+
+  .subtitle {
+    font-size: 2.6mm;
+    font-weight: 700;
+    color: #1a1a2e;
+    letter-spacing: 0.2mm;
+  }
+
+  /* ===== INFO STRIP ===== */
+  .info-strip {
+    text-align: center;
+    padding: 2mm 4mm;
+    font-weight: 700;
+    font-size: 2.6mm;
+    color: #27945c;
+    border-bottom: 0.4mm solid #27945c;
+    line-height: 1.6;
+  }
+
+  .info-strip .location {
+    font-weight: 500;
+    font-size: 2.2mm;
+    color: #555;
+  }
+
+  /* ===== CONTENT ===== */
+  .content {
+    padding: 2.5mm 4mm 2mm;
+    display: flex;
+    flex-direction: column;
+    gap: 2.2mm;
+    flex: 1;
+  }
+
+  .workshop-badge {
+    text-align: center;
+    font-family: 'Press Start 2P', monospace;
+    font-size: 2.8mm;
+    color: #1a1a2e;
+    padding-bottom: 1.5mm;
+    border-bottom: 0.3mm dashed #27945c;
+    line-height: 1.4;
+  }
+
+  .workshop-meta {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 2.2mm;
+    color: #888;
+    font-weight: 500;
+    margin-top: 0.8mm;
+  }
+
+  /* ===== MITBRINGEN BOX (prominent) ===== */
+  .bring-box {
+    border: 0.5mm solid #27945c;
+    border-radius: 1.5mm;
+    padding: 2.5mm 3mm 2mm;
+    background: #f2faf5;
+    position: relative;
+  }
+
+  .bring-title {
+    font-family: 'Press Start 2P', monospace;
+    font-size: 2.2mm;
+    color: #27945c;
+    margin-bottom: 1.8mm;
+    text-align: center;
+    letter-spacing: 0.2mm;
+  }
+
+  .bring-item {
+    display: flex;
+    gap: 1.5mm;
+    margin-bottom: 1.5mm;
+    font-size: 2.2mm;
+    line-height: 1.45;
+    color: #333;
+  }
+
+  .bring-item:last-child {
+    margin-bottom: 0;
+  }
+
+  .bring-check {
+    color: #27945c;
+    font-weight: 800;
+    flex-shrink: 0;
+    font-size: 2.4mm;
+  }
+
+  .bring-text {
+    flex: 1;
+  }
+
+  .bring-text strong {
+    font-weight: 700;
+    color: #1a1a2e;
+  }
+
+  .bring-text .warn {
+    color: #c0392b;
+    font-weight: 700;
+    font-size: 2mm;
+  }
+
+  .bring-text .download {
+    color: #27945c;
+    font-weight: 600;
+    font-size: 2mm;
+  }
+
+  /* ===== SECTIONS ===== */
+  .section {
+    padding: 0;
+  }
+
+  .section-title {
+    font-weight: 800;
+    font-size: 2.3mm;
+    color: #27945c;
+    margin-bottom: 1mm;
+    letter-spacing: 0.1mm;
+  }
+
+  .section-body {
+    font-size: 2.1mm;
+    line-height: 1.5;
+    color: #444;
+  }
+
+  .section-body .bullet {
+    display: flex;
+    gap: 1.2mm;
+    margin-bottom: 0.6mm;
+  }
+
+  .section-body .bullet-icon {
+    flex-shrink: 0;
+    color: #27945c;
+    font-size: 2mm;
+  }
+
+  /* ===== BETREUUNG ===== */
+  .meta-row {
+    font-size: 2.1mm;
+    color: #555;
+    line-height: 1.5;
+  }
+
+  .meta-row strong {
+    color: #27945c;
+    font-weight: 700;
+  }
+
+  /* ===== FOOTER ===== */
+  .footer {
+    border-top: 0.4mm solid #27945c;
+    padding: 2mm 4mm;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2mm;
+  }
+
+  .signup {
+    font-size: 2.4mm;
+    font-weight: 700;
+    color: #27945c;
+  }
+
+  .kooperation {
+    font-size: 1.8mm;
+    color: #999;
+    line-height: 1.4;
+  }
+
+  @media print {
+    html, body { width: 105mm; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <div class="logo-row">
+    <div class="logo-wrap">
+      <svg viewBox="0 0 103.33 149.59" xmlns="http://www.w3.org/2000/svg">
+        <path fill="#27945c" stroke="#27945c" stroke-width="0.26" d="M38.65 116.44 18.11 106.76v-5.73l20.55-9.68v5.27l-13.3 6.15q-.92.41-1.83.73-.87.28-1.38.37.5.09 1.42.37.92.27 1.79.69l13.3 6.14zm2 7.61 16.05-43.11h5.96L46.62 124.05zm24.02-7.61v-5.28l13.3-6.14q.92-.41 1.79-.69.92-.28 1.42-.41-.5-.09-1.42-.37-.92-.27-1.79-.64l-13.3-6.19v-5.37l20.55 9.68v5.73z"/>
+        <g transform="translate(-53.88,-65.08)">
+          <path fill="none" stroke="#27945c" stroke-width="8" stroke-linejoin="round" d="M105.54 210.67H82.83L57.88 185.71v-32.76l17.68-23.57 9.19-24.27 20.8-8.32 20.8 8.32 9.19 24.27 17.68 23.57v32.76l-24.96 24.96z"/>
+          <path fill="#27945c" d="M101.15 99.32s-2.06-4.4-2.14-4.4c-16.35.2-34.14-20.55-34.06-29.82 14.88-.19 28.09-.1 41.03 29.26z"/>
+          <path fill="none" stroke="#27945c" stroke-width="8" stroke-linejoin="round" d="M105.99 96.12l12.66-17.25"/>
+        </g>
+      </svg>
+    </div>
+    <div class="brand-name">HVLtech</div>
+  </div>
+  <div class="event-type">KIDS LABS</div>
+  <div class="subtitle">Information f&uuml;r Eltern</div>
+</div>
+
+<!-- DATE + LOCATION -->
+<div class="info-strip">
+  Sonntag, 19. April 2026 &middot; 10:00 &ndash; 13:00 Uhr (Einlass ab 9:45)<br>
+  <span class="location">Kulturhaus &bdquo;J. R. Becher&ldquo; &middot; Havell&auml;nder Weg 67 &middot; Falkensee &middot; 1. OG</span>
+</div>
+
+<!-- CONTENT -->
+<div class="content">
+
+  <!-- Workshop badge -->
+  <div class="workshop-badge">
+    &#9935; Minecraft Modding
+    <div class="workshop-meta" style="font-family: 'Roboto', sans-serif;">ab 10 Jahren &middot; max. 10 Pl&auml;tze</div>
+  </div>
+
+  <!-- MITBRINGEN (prominent) -->
+  <div class="bring-box">
+    <div class="bring-title">Was muss mein Kind mitbringen?</div>
+
+    <div class="bring-item">
+      <span class="bring-check">&#10003;</span>
+      <div class="bring-text">
+        <strong>Laptop mit Ladeger&auml;t</strong><br>
+        Windows, Mac oder Linux &mdash; keine Tablets/Chromebooks
+      </div>
+    </div>
+
+    <div class="bring-item">
+      <span class="bring-check">&#10003;</span>
+      <div class="bring-text">
+        <strong>Minecraft Java Edition</strong> &mdash; installiert &amp; eingeloggt<br>
+        <span class="warn">NICHT Bedrock / Microsoft Store</span><br>
+        <span class="download">Download: minecraft.net</span>
+      </div>
+    </div>
+
+    <div class="bring-item">
+      <span class="bring-check">&#10003;</span>
+      <div class="bring-text">
+        <strong>IntelliJ IDEA Community Edition</strong> (kostenlos)<br>
+        <span class="download">Download: jetbrains.com/idea/download</span>
+      </div>
+    </div>
+
+    <div class="bring-item">
+      <span class="bring-check">&#10003;</span>
+      <div class="bring-text">
+        Bitte stellt sicher, dass euer Kind sich <strong>selbst einloggen</strong> kann
+      </div>
+    </div>
+  </div>
+
+  <!-- Fuer Eltern -->
+  <div class="section">
+    <div class="section-title">F&uuml;r Eltern</div>
+    <div class="section-body">
+      <div class="bullet">
+        <span class="bullet-icon">&#9656;</span>
+        <span>Wir bitten alle Eltern, w&auml;hrend des Events im Kulturhaus zu bleiben</span>
+      </div>
+      <div class="bullet">
+        <span class="bullet-icon">&#9656;</span>
+        <span>Das Event endet um 13:00 Uhr mit einer kurzen Pr&auml;sentation</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Fotos -->
+  <div class="section">
+    <div class="section-title">Fotos</div>
+    <div class="section-body">
+      Fotos werden nur mit Einverst&auml;ndnis ver&ouml;ffentlicht, keine Gesichter online.
+    </div>
+  </div>
+
+  <!-- Betreuung -->
+  <div class="meta-row">
+    <strong>Betreuung:</strong> Dana Hlavacova, Martin Hlavac, Jonas Benn
+  </div>
+
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+  <div class="signup">Anmeldung &#10132; meetup@hvltech.de &middot; hvltech.de/labs</div>
+  <div class="kooperation">In Kooperation mit F&ouml;rderverein Kulturhaus &bdquo;J. R. Becher&ldquo; e.V.</div>
+</div>
+
+</body>
+</html>
